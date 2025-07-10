@@ -6,6 +6,8 @@ function vigenereEncrypt(plainText, key) {
     // Convert both plaintext and key to uppercase
     plainText = plainText.toUpperCase();
     key = key.toUpperCase();
+    console.log(plainText);
+    console.log(key);
 
     // Loop through each character of the plaintext
     for (let i = 0, j = 0; i < plainText.length; i++) {
